@@ -45,6 +45,18 @@ a{
 
 }
 
+#SOTTOTITOLO{
+
+    font-size: xx-large;
+    color:rgb(6, 117, 25);
+}
+
+#SOTTOTITOLO2{
+
+    font-size: xx-large;
+    color:rgb(21, 3, 91);
+}
+
 #TESTO{
 
 	font-size: x-large;
