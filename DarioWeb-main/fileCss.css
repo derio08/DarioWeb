@@ -13,60 +13,78 @@ h2{
     font-size: xx-large;
     color: white;
     position: relative;
-    top: 200px;
+    top: -150px;
+    left: 800px;
     font-style: comic sans ms;
 }
 
-.livello{
-
-    font-size: x-large;
-    text-align: left;
-    justify-content: center;
-    color: white;   
-    position: relative;
-    top: -100px;
-    left: 100px;
-}
-
-.nascosto{
-
-    color: black;
-}
 
 
-#PREZZO{
-
-    font-size: x-large;
-}
-
-.testoAbbonamento{
-    font-size: large;
-    text-align: center;
-    justify-content: center;
-    color: white;
-     
-}
-
-.abbonamenti{
+.corpo {
     display: flex;
-    gap: 4px;
     justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 400px;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 400px;
+    margin: 0;
     
 }
 
-/*#NOME{
-    position: absolute;
-    top: 300px;
-    right: 750px;
-    color: black;
-    width: 400px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 5px solid rgb(255, 255, 0);
-}*/
+
+
+.livello {
+    color:white;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.card {
+
+    position: relative;
+    left: -130px;
+    color: white;
+    font-size: 700px;
+    border: 4px solid white;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 75px;
+    padding-left: 75px;;
+    border-radius: .25rem;
+}
+
+
+
+.testo {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: white;
+}
+
+
+.prezzo {
+    margin: 5px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.abbonamenti{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;             
+    justify-content: center;   
+    align-items: flex-start;   
+    flex-wrap: nowrap; 
+    font-family: Arial, sans-serif;
+
+
+}
+
 
 #SPAZIO{
 
@@ -95,12 +113,6 @@ h1{
 	float: center;
 }
 
-#ABBONAMENTO{
-   
-    position: absolute;
-    top: 20px;
-    right: 10px;
-}
 
 a{
 
