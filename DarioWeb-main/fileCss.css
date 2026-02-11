@@ -8,6 +8,66 @@ div{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    top: 200px;
+    font-style: comic sans ms;
+}
+
+.livello{
+
+    font-size: x-large;
+    text-align: left;
+    justify-content: center;
+    color: white;   
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+
+.nascosto{
+
+    color: black;
+}
+
+
+#PREZZO{
+
+    font-size: x-large;
+}
+
+.testoAbbonamento{
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    color: white;
+     
+}
+
+.abbonamenti{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    
+}
+
+/*#NOME{
+    position: absolute;
+    top: 300px;
+    right: 750px;
+    color: black;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 0);
+}*/
+
 #SPAZIO{
 
     height: 400px;
@@ -33,6 +93,13 @@ h1{
 
 	width: 700px;
 	float: center;
+}
+
+#ABBONAMENTO{
+   
+    position: absolute;
+    top: 20px;
+    right: 10px;
 }
 
 a{
