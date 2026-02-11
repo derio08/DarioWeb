@@ -1,0 +1,39 @@
+body{
+
+    background-image: url(immagini/immagine1.jpg);
+}
+
+div{
+
+    text-align: center;
+}
+
+#SPAZIO{
+
+    height: 400px;
+}
+
+#IMMAGINE{
+
+	width: 600px;
+}
+
+h1{
+
+	color:yellow;
+}
+
+a{
+
+    color: yellow;
+    font-size: 30px;
+    border: 4px solid yellow;
+    padding: 7px 10px;
+    border-radius: .25rem;
+
+}
+
+p{
+
+    color:white;
+}
