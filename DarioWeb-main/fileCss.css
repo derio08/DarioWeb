@@ -14,7 +14,7 @@ h2{
     color: white;
     position: relative;
     top: -150px;
-    left: 800px;
+    left: 560px;
     font-style: comic sans ms;
 }
 
@@ -145,5 +145,12 @@ a{
 #LOCANDINE{
 
     width: 400px;
+}
+
+#ABBONAMENTO{
+
+    position: absolute;
+    top:30px;
+    right: 0;
 }
 
